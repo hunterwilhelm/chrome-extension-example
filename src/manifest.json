@@ -1,0 +1,16 @@
+{
+  "name": "Random Wikipedia Clicker",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  }
+}
